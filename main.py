@@ -10,7 +10,7 @@ from pyromod import listen
 import logging
 from tglogging import TelegramLogHandler
 
-# Config 
+# Config #
 class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6486166910:AAF710gLtMeIuxo_IwQSjUoXAQkm9tjLgDU")
     API_ID = int(os.environ.get("API_ID", "11657097"))
