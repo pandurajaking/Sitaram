@@ -21,6 +21,7 @@ RUN apt-get install -y aria2
 RUN apt -qq update && apt -qq install -y git wget pv jq python3-dev ffmpeg mediainfo
 RUN apt install ffmpeg
 RUN pip3 install -U pip
+RUN pip3 install beautifulsoup4 bs4
 RUN pip3 install -r requirements.txt
 CMD ["sh", "start.sh"]
 
